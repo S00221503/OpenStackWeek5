@@ -1,4 +1,7 @@
 <div>
-  <app-child1></app-child1>
-  <app-child2></app-child2>
+  <button (click)="increment()">Increment</button>
+  <button (click)="decrement()">Decrement</button>
+
+  <app-child1 [count]="currentCount"></app-child1>
+  <app-child2 [count]="currentCount"></app-child2>
 </div>

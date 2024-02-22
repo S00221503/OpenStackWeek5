@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-child2',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./child2.component.css']
 })
 export class Child2Component {
-
+  @Input() count?: number;
 }

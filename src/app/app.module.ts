@@ -17,4 +17,5 @@ import { Child2Component } from './child2/child2.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}
