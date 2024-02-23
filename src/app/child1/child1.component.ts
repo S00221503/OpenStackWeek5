@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./child1.component.css']
 })
 export class Child1Component {
-  @Input() count: number | undefined;
+  @Input() count?: number;
 }
